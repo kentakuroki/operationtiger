@@ -1,0 +1,600 @@
+<!DOCTYPE html><html lang="ja" prefix="fb: http://ogp.me/ns/fb#" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml"><head>    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta name="msvalidate.01" content="16AD99A6ADD3644D5417B889AACFD4DD" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+    オペレーションの虎
+</title>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="XZ6jOk1xm/LuxmTHh3p5nPXcHcBg4qvTrze3w+jbS8/QWkTytNKT3HAqQrc/WcaELsH++2pVX70W+xlUKhQdLw==" />
+<meta name="msapplication-TileColor" content="#e73650">
+<meta name="msapplication-TileImage" content="https://readyfor.jp/assets/favicon/mstile-144x144-aad8a8400b82a65fc54c17896eded31264ec5503ccc62d4cc164b73c674bb96a.png">
+<meta name="theme-color" content="#ffffff">
+
+
+<link rel="stylesheet" media="all" href="CSS.css" /><link rel="stylesheet" media="all" href="/assets/application-5afbe4f90e332d7656f06388f95f5e2f00bad4e87873c5da5a3841b25c9d083c.css" />
+<link rel="stylesheet" media="all" href="css2.css" />
+<link rel="stylesheet" media="all" href="css3.css" />
+<link rel="stylesheet" media="all" href="css4.css" />
+<link rel="stylesheet" media="all" href="css5.css" />
+<link rel="stylesheet" media="all" href="css6.css" />
+<link rel="stylesheet" media="all" href="css7.css" />
+<link rel="stylesheet" media="all" href="css8.css" /><script>
+  function getCookie(name) {
+    var cookieData = document.cookie;
+    var key = name + "=";
+
+    var idx = cookieData.indexOf(key);
+    if (idx == -1) return null;
+    idx += key.length;
+
+    var end = cookieData.indexOf(";", idx);
+    if (end == -1) end = cookieData.length;
+
+    return decodeURIComponent(cookieData.substring(idx, end));
+  }
+
+  var hostnamePattern = new RegExp("^https://readyfor.jp(.*$)");
+  var reportError = function(evt) {
+    var filename = evt.filename;
+    if (hostnamePattern.test(filename)) {
+      filename = filename.match(hostnamePattern)[1];
+    }
+
+    var action = filename + ":" + evt.lineno + "," + evt.colno;
+    var label  =
+      evt.message + ", " +
+      "href: " + location.href + ", " +
+      "rf_uuid: " + getCookie("rf_uuid") + ", " +
+      "userAgent: " + window.navigator.userAgent;
+
+    dataLayer.push({
+      'event': 'sendEvent',
+      'eventCategory': 'JSError',
+      'eventAction': action,
+      'eventLabel': label,
+      'eventNonInteraction': true});
+  };
+  if (window.addEventListener) {
+    window.addEventListener("error", reportError);
+  } else {
+    // Compatibility for IE8
+    window.attachEvent("onerror", reportError);
+  }
+</script>
+<script src="/assets/application-3a094c2658589012280cbc8f61ffff9edbd2f06d4eb95a1c7874ef783bd6db7b.js"></script><script src="/assets/pulldown-e1d833fb3e9cae407a0a4134cb8da6e24fbf1decebd37a25fd70757c7d963769.js" defer="defer"></script>
+<script src="/assets/tipsy-c0f2558c4005c8c27c08b9661f3d2399f94b5969bfa7ffa6c379ef1d997a64d1.js" defer="defer"></script><script src="/assets/lodash-compat-bae73eaf8df297a0de8c51ac32e5c4fefb515432e2ebca36c4998ffb258bf2c7.js" defer="defer"></script><script>
+ $( function(){
+   _.templateSettings = {
+     interpolate : /\{\{=(.+?)\}\}/g,
+     escape : /\{\{-(.+?)\}\}/g,
+     evaluate: /\{\{(.+?)\}\}/g,
+   };
+ });
+</script>
+
+
+
+
+
+    <meta content="188875347802288" property="fb:app_id" /><meta content="summary_large_image" name="twitter:card" /><meta content="@Readyfor_cf" name="twitter:site" /><meta content="website" property="og:type" />
+
+    <script>
+  function getCookie(name) {
+    var cookieData = document.cookie;
+    var key = name + "=";
+
+    var idx = cookieData.indexOf(key);
+    if (idx == -1) return null;
+    idx += key.length;
+
+    var end = cookieData.indexOf(";", idx);
+    if (end == -1) end = cookieData.length;
+
+    return decodeURIComponent(cookieData.substring(idx, end));
+  }
+
+  var hostnamePattern = new RegExp("^https://readyfor.jp(.*$)");
+  var reportError = function(evt) {
+    var filename = evt.filename;
+    if (hostnamePattern.test(filename)) {
+      filename = filename.match(hostnamePattern)[1];
+    }
+
+    var action = filename + ":" + evt.lineno + "," + evt.colno;
+    var label  =
+      evt.message + ", " +
+      "href: " + location.href + ", " +
+      "rf_uuid: " + getCookie("rf_uuid") + ", " +
+      "userAgent: " + window.navigator.userAgent;
+
+    dataLayer.push({
+      'event': 'sendEvent',
+      'eventCategory': 'JSError',
+      'eventAction': action,
+      'eventLabel': label,
+      'eventNonInteraction': true});
+  };
+  if (window.addEventListener) {
+    window.addEventListener("error", reportError);
+  } else {
+    // Compatibility for IE8
+    window.attachEvent("onerror", reportError);
+  }
+</script>
+
+
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script src="/assets/selectivizr-min-dfaddab53a8a49675d27ad9f72b67c6677a91f54a762dff14625d3485449ad34.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/assets/html5shiv.min-eb5a4ca33ca793da2d6c4b1a6409c81a7ba7763fef52c918b3c6f80e166d4118.js"></script>
+    <![endif]-->
+
+
+    <script>
+      var fileUploadErrors = {
+        maxFileSize: 'File is too big',
+        minFileSize: 'File is too small',
+        acceptFileTypes: 'Filetype not allowed',
+        maxNumberOfFiles: 'Max number of files exceeded',
+        uploadedBytes: 'Uploaded bytes exceed file size',
+        emptyResult: 'Empty file upload result'
+      };
+    </script>
+    <script>
+    dataLayer = [{
+      'signIn': 'visitor',
+      'orderCountStr': 'not login',
+    }];
+
+
+
+
+
+  $(function(){
+    var sendProjectLinkEvent = function(className, pagename) {
+      $(document).on('click',
+        '.'+className+' article',
+        function(){
+          var href = $(this).find('a').attr('href');
+          dataLayer.push({
+            'event': 'sendEvent',
+            'eventCategory': 'projectLink('+pagename+')',
+            'eventAction': className,
+            'eventLabel': href
+          });
+      });
+    }
+
+  });
+
+
+
+</script>
+
+  <script type="text/javascript">
+    var _gtm = _gtm || {};
+
+    _gtm.trackFacebook = function(opt_pagePath) {
+      try {
+        if (FB && FB.Event && FB.Event.subscribe) {
+          FB.Event.subscribe('edge.create', function(opt_target) {
+            dataLayer.push({
+              'network': 'facebook',
+              'socialAction': 'like',
+              'opt_target': opt_target,
+              'opt_pagePath': opt_pagePath
+            })
+          });
+          FB.Event.subscribe('edge.remove', function(opt_target) {
+            dataLayer.push({
+              'network': 'facebook',
+              'socialAction': 'unlike',
+              'opt_target': opt_target,
+              'opt_pagePath': opt_pagePath
+            })
+          });
+          FB.Event.subscribe('message.send', function(opt_target) {
+            dataLayer.push({
+              'network': 'facebook',
+              'socialAction': 'send',
+              'opt_target': opt_target,
+              'opt_pagePath': opt_pagePath
+            })
+          });
+        }
+      } catch (e) {}
+    };
+
+    _gtm.trackTwitterHandler_ = function(intent_event, opt_pagePath) {
+      var opt_target; //Default value is undefined
+      if (intent_event && intent_event.type == 'tweet' || intent_event.type == 'click') {
+        if (intent_event.target.nodeName == 'IFRAME') {
+          opt_target = _gtm.extractParamFromUri_(intent_event.target.src, 'url');
+        }
+        var socialAction = intent_event.type + ((intent_event.type == 'click') ? '-' + intent_event.region : ''); //append the type of click to action
+        dataLayer.push({
+          'network': 'twitter',
+          'socialAction': socialAction,
+          'opt_target': opt_target,
+          'opt_pagePath': opt_pagePath
+        })
+      }
+    };
+
+    _gtm.trackTwitter = function(opt_pagePath) {
+      intent_handler = function(intent_event) {
+        _gtm.trackTwitterHandler_(intent_event, opt_pagePath);
+      };
+
+      //bind twitter Click and Tweet events to Twitter tracking handler
+      twttr.events.bind('click', intent_handler);
+      twttr.events.bind('tweet', intent_handler);
+    };
+
+    _gtm.extractParamFromUri_ = function(uri, paramName) {
+      if (!uri) {
+        return;
+      }
+      var regex = new RegExp('[\\?&#]' + paramName + '=([^&#]*)');
+      var params = regex.exec(uri);
+      if (params != null) {
+        return unescape(params[1]);
+      }
+      return;
+    };
+
+  </script>
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJ5K3XK');</script>
+<!-- End Google Tag Manager -->
+
+
+    <script>
+      window.twttr = (function (d,s,id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+        js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+      }(document, "script", "twitter-wjs"));
+
+        // Wait for the asynchronous resources to load
+        twttr.ready(function(twttr) {
+          _gtm.trackTwitter(); //Google Analytics tracking
+        });
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1024438471"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-1024438471');
+    </script>
+
+
+</head><body class="pc c-projects a-index"><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5K3XK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+
+
+
+</script>
+<!-- Yahoo Code for your Conversion Page -->
+<script type="text/javascript">
+  var yahoo_conversion_id = 1000353958;
+  var yahoo_conversion_value = 0;
+</script>
+<script type="text/javascript" src="//s.yimg.jp/images/listing/tool/cv/conversion.js">
+</script>
+<noscript>
+  <div style="display:inline;">
+  </div>
+</noscript>
+<div style="display:inline;">
+</div>
+
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','nvdoa');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+<div class="Site-container"><style type="text/css">.non_support_annoucement {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e73650;
+}</style><script type="application/json" id="js-react-on-rails-context">{"railsEnv":"production","inMailer":false,"i18nLocale":"ja","i18nDefaultLocale":"ja","rorVersion":"11.3.0","rorPro":false,"href":"https://readyfor.jp/projects","location":"/projects","scheme":"https","host":"readyfor.jp","port":null,"pathname":"/projects","search":null,"httpAcceptLanguage":"ja,en-US;q=0.9,en;q=0.8","serverSide":false}</script>
+<div id="CommonHeaderWrapper-react-component-37f8a25e-d954-45b4-bfcb-37dd9c049904"><style data-emotion-css="1cx7pjx">.css-1cx7pjx{width:100%;box-shadow:0px 2px 6px rgba(33,35,37,0.08);background:#fff;}</style><header class="css-1cx7pjx"><style data-emotion-css="tpl8km">.css-tpl8km{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin:auto;max-width:1120px;padding:12px 16px;position:relative;}@media screen and (min-width:960px){.css-tpl8km{padding:16px;}}</style><div class="css-tpl8km"><style data-emotion-css="11apa6">.css-11apa6{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;}</style><div class="css-11apa6"><style data-emotion-css="9ncwx">.css-9ncwx{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;}</style><div class="css-9ncwx"><style data-emotion-css="1m3egw1">.css-1m3egw1{font-size:0;}</style><span class="css-1m3egw1"><style data-emotion-css="r6n1d9">@media screen and (min-width:960px){.css-r6n1d9{display:none;}}</style><svg class="css-r6n1d9" width="18" height="14" viewBox="0 0 18 14" fill="#73797e" xmlns="http://www.w3.org/2000/svg"><rect width="18" height="2" rx="1"></rect><rect y="6" width="18" height="2" rx="1"></rect><rect y="12" width="18" height="2" rx="1"></rect></svg></span><style data-emotion-css="1latowv">.css-1latowv{position:absolute;z-index:2;top:100%;display:none;}@media screen and (min-width:960px){.css-1latowv{display:none;}}</style><style data-emotion-css="1a3lhih">.css-1a3lhih{right:0px;width:100%;position:absolute;z-index:2;top:100%;display:none;}@media screen and (min-width:960px){.css-1a3lhih{right:45px;width:auto;}}@media screen and (min-width:960px){.css-1a3lhih{display:none;}}</style><div class="css-1a3lhih"><style data-emotion-css="1arna4l">.css-1arna4l{box-sizing:border-box;background-color:#fff;border-radius:0 0 10px 10px;border:solid 1px #dee1e3;padding:32px 24px;position:relative;}.css-1arna4l::before,.css-1arna4l::after{border-bottom:8px solid #dee1e3;border-left:5px solid transparent;border-right:5px solid transparent;content:"";left:20px;position:absolute;top:-8px;}.css-1arna4l::after{border-bottom:8px solid #fff;top:-6px;}</style><nav class="css-1arna4l"><style data-emotion-css="1ago99h">.css-1ago99h{width:100%;}</style><div class="css-1ago99h"><style data-emotion-css="1msggnt">.css-1msggnt{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-radius:4px;border:1px solid #dee1e3;box-sizing:border-box;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;height:40px;width:100%;}</style><div class="css-1msggnt"><style data-emotion-css="flfr8c">.css-flfr8c{border:none;height:2.5em;margin-left:8px;margin-right:8px;width:100%;}.css-flfr8c:focus{outline:none;box-shadow:none;}</style><style data-emotion-css="mjb5nf">.css-mjb5nf{box-sizing:border-box;padding:7px 8px;background:#fff;border:1px solid #dee1e3;border-radius:4px;color:#343b42;font-size:12px;line-height:18px;outline:none;border:none;height:2.5em;margin-left:8px;margin-right:8px;width:100%;}.css-mjb5nf:focus{box-shadow:#babec2 0 0 0 2px;outline:none;}.css-mjb5nf::-webkit-input-placeholder{color:#babec2;}.css-mjb5nf::-moz-placeholder{color:#babec2;}.css-mjb5nf:-ms-input-placeholder{color:#babec2;}.css-mjb5nf::placeholder{color:#babec2;}.css-mjb5nf:focus{outline:none;box-shadow:none;}</style><input type="text" placeholder="キーワードでさがす" class="css-mjb5nf"/><style data-emotion-css="vp2fpn">.css-vp2fpn{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-left:1px solid #dee1e3;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;height:40px;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:40px;}.css-vp2fpn:hover{cursor:pointer;}</style><div class="css-vp2fpn"><svg class="css-1ago99h" width="24" height="24" viewBox="0 0 24 24" fill="#73797e" xmlns="http://www.w3.org/2000/svg"><mask id="hamburgerIcon-mask-inside-1" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 11C16 13.7614 13.7614 16 11 16C8.23858 16 6 13.7614 6 11C6 8.23858 8.23858 6 11 6C13.7614 6 16 8.23858 16 11ZM15.1921 16.6064C14.0235 17.4816 12.5723 18 11 18C7.13401 18 4 14.866 4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 12.5724 17.4816 14.0236 16.6063 15.1922L18.9497 17.5356C19.3403 17.9262 19.3403 18.5593 18.9497 18.9499C18.5592 19.3404 17.9261 19.3404 17.5355 18.9499L15.1921 16.6064Z"></path></mask><path d="M15.1921 16.6064L16.6063 15.1922L15.3806 13.9665L13.9932 15.0056L15.1921 16.6064ZM16.6063 15.1922L15.0055 13.9933L13.9664 15.3807L15.1921 16.6065L16.6063 15.1922ZM11 18C14.866 18 18 14.866 18 11H14C14 12.6569 12.6569 14 11 14V18ZM4 11C4 14.866 7.13401 18 11 18V14C9.34315 14 8 12.6569 8 11H4ZM11 4C7.13401 4 4 7.13401 4 11H8C8 9.34315 9.34315 8 11 8V4ZM18 11C18 7.13401 14.866 4 11 4V8C12.6569 8 14 9.34315 14 11H18ZM11 20C13.0192 20 14.8884 19.3326 16.391 18.2073L13.9932 15.0056C13.1587 15.6306 12.1254 16 11 16V20ZM2 11C2 15.9706 6.02944 20 11 20V16C8.23858 16 6 13.7614 6 11H2ZM11 2C6.02944 2 2 6.02944 2 11H6C6 8.23858 8.23858 6 11 6V2ZM20 11C20 6.02944 15.9706 2 11 2V6C13.7614 6 16 8.23858 16 11H20ZM18.2071 16.3912C19.3326 14.8885 20 13.0193 20 11H16C16 12.1254 15.6306 13.1588 15.0055 13.9933L18.2071 16.3912ZM15.1921 16.6065L17.5355 18.9499L20.364 16.1214L18.0205 13.778L15.1921 16.6065ZM17.5355 18.9499C17.145 18.5593 17.145 17.9262 17.5355 17.5356L20.364 20.3641C21.5355 19.1925 21.5355 17.293 20.364 16.1214L17.5355 18.9499ZM17.5355 17.5356C17.9261 17.1451 18.5592 17.1451 18.9497 17.5356L16.1213 20.3641C17.2929 21.5356 19.1924 21.5356 20.364 20.3641L17.5355 17.5356ZM18.9497 17.5356L16.6063 15.1922L13.7779 18.0206L16.1213 20.3641L18.9497 17.5356Z" mask="url(#hamburgerIcon-mask-inside-1)"></path></svg></div></div></div><style data-emotion-css="cmgt8f">.css-cmgt8f{margin:32px 0 0;padding:0;}</style><ul class="css-cmgt8f"><style data-emotion-css="bdswu0">.css-bdswu0{list-style:none;}.css-bdswu0:not(:first-child){margin-top:24px;}</style><li class="css-bdswu0"><style data-emotion-css="11g9kr1">.css-11g9kr1{-webkit-text-decoration:none;text-decoration:none;}</style><a href="/crowdfunding/" class="css-11g9kr1"><style data-emotion-css="34q1c2">.css-34q1c2{margin:0;margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0;color:#4e878b;font-size:14px;font-weight:400;text-align:inherit;line-height:1.2;-webkit-user-select:auto;-moz-user-select:auto;-ms-user-select:auto;user-select:auto;-webkit-transition:color 150ms ease-in-out 0ms,font-size 150ms ease-in-out 0ms, font-weight 150ms ease-in-out 0ms;transition:color 150ms ease-in-out 0ms,font-size 150ms ease-in-out 0ms, font-weight 150ms ease-in-out 0ms;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}</style><span color="#4e878b" href="/crowdfunding/" class="css-34q1c2">プロジェクトとは</span></a></li><style data-emotion-css="1dcwy10">.css-1dcwy10{list-style:none;}.css-1dcwy10:not(:first-child){margin-top:24px;}@media screen and (min-width:390px){.css-1dcwy10{display:none;}}</style><li class="css-1dcwy10"><a href="/proposals/intro" class="css-11g9kr1"><span color="#4e878b" href="/proposals/intro" class="css-34q1c2">プロジェクトをはじめる</span></a></li><li class="css-1dcwy10"><a href="/projects" class="css-11g9kr1"><span color="#4e878b" href="/projects" class="css-34q1c2">プロジェクトをさがす</span></a></li></ul></nav></div><style data-emotion-css="m2odb3">.css-m2odb3{display:none;height:100%;position:absolute;right:0;width:100%;z-index:1;background:transparent;}</style><div class="css-m2odb3"></div></div><style data-emotion-css="sa7o2w">.css-sa7o2w{font-size:0;margin-left:15px;}</style><a href="/" class="css-sa7o2w"><style data-emotion-css="1f4za3j">.css-1f4za3j{height:14px;width:99px;}@media screen and (min-width:960px){.css-1f4za3j{height:20px;padding-left:0px;width:142px;}}</style><img class="css-1f4za3j" width="142" src="https://florence.cybozu.com/g/cabinet/download.csp/-/logo.png?fid=3064&ticket=&hid=391&.png" alt="READYFOR"/></a><style data-emotion-css="1tm55l5">@media screen and (max-width:960px){.css-1tm55l5{display:none;}}@media screen and (min-width:960px){.css-1tm55l5{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;margin-left:32px;}}</style><div class="css-1tm55l5"><style data-emotion-css="z91h19">.css-z91h19{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-radius:4px;border:1px solid #dee1e3;box-sizing:border-box;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;height:40px;}</style><div class="css-z91h19"><style data-emotion-css="lf92rs">.css-lf92rs{border:none;height:2.5em;margin-left:8px;margin-right:8px;width:242px;}.css-lf92rs:focus{outline:none;box-shadow:none;}</style><style data-emotion-css="paq9dd">.css-paq9dd{box-sizing:border-box;padding:7px 8px;background:#fff;border:1px solid #dee1e3;border-radius:4px;color:#343b42;font-size:12px;line-height:18px;outline:none;border:none;height:2.5em;margin-left:8px;margin-right:8px;width:242px;}.css-paq9dd:focus{box-shadow:#babec2 0 0 0 2px;outline:none;}.css-paq9dd::-webkit-input-placeholder{color:#babec2;}.css-paq9dd::-moz-placeholder{color:#babec2;}.css-paq9dd:-ms-input-placeholder{color:#babec2;}.css-paq9dd::placeholder{color:#babec2;}.css-paq9dd:focus{outline:none;box-shadow:none;}</style><input type="text" placeholder="キーワードでさがす" class="css-paq9dd"/><div class="css-vp2fpn"><svg width="24" height="24" viewBox="0 0 24 24" fill="#73797e" xmlns="http://www.w3.org/2000/svg"><mask id="pcMenuIcon-mask-inside-1" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 11C16 13.7614 13.7614 16 11 16C8.23858 16 6 13.7614 6 11C6 8.23858 8.23858 6 11 6C13.7614 6 16 8.23858 16 11ZM15.1921 16.6064C14.0235 17.4816 12.5723 18 11 18C7.13401 18 4 14.866 4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 12.5724 17.4816 14.0236 16.6063 15.1922L18.9497 17.5356C19.3403 17.9262 19.3403 18.5593 18.9497 18.9499C18.5592 19.3404 17.9261 19.3404 17.5355 18.9499L15.1921 16.6064Z"></path></mask><path d="M15.1921 16.6064L16.6063 15.1922L15.3806 13.9665L13.9932 15.0056L15.1921 16.6064ZM16.6063 15.1922L15.0055 13.9933L13.9664 15.3807L15.1921 16.6065L16.6063 15.1922ZM11 18C14.866 18 18 14.866 18 11H14C14 12.6569 12.6569 14 11 14V18ZM4 11C4 14.866 7.13401 18 11 18V14C9.34315 14 8 12.6569 8 11H4ZM11 4C7.13401 4 4 7.13401 4 11H8C8 9.34315 9.34315 8 11 8V4ZM18 11C18 7.13401 14.866 4 11 4V8C12.6569 8 14 9.34315 14 11H18ZM11 20C13.0192 20 14.8884 19.3326 16.391 18.2073L13.9932 15.0056C13.1587 15.6306 12.1254 16 11 16V20ZM2 11C2 15.9706 6.02944 20 11 20V16C8.23858 16 6 13.7614 6 11H2ZM11 2C6.02944 2 2 6.02944 2 11H6C6 8.23858 8.23858 6 11 6V2ZM20 11C20 6.02944 15.9706 2 11 2V6C13.7614 6 16 8.23858 16 11H20ZM18.2071 16.3912C19.3326 14.8885 20 13.0193 20 11H16C16 12.1254 15.6306 13.1588 15.0055 13.9933L18.2071 16.3912ZM15.1921 16.6065L17.5355 18.9499L20.364 16.1214L18.0205 13.778L15.1921 16.6065ZM17.5355 18.9499C17.145 18.5593 17.145 17.9262 17.5355 17.5356L20.364 20.3641C21.5355 19.1925 21.5355 17.293 20.364 16.1214L17.5355 18.9499ZM17.5355 17.5356C17.9261 17.1451 18.5592 17.1451 18.9497 17.5356L16.1213 20.3641C17.2929 21.5356 19.1924 21.5356 20.364 20.3641L17.5355 17.5356ZM18.9497 17.5356L16.6063 15.1922L13.7779 18.0206L16.1213 20.3641L18.9497 17.5356Z" mask="url(#pcMenuIcon-mask-inside-1)"></path></svg></div></div></div></div><style data-emotion-css="16dn867">.css-16dn867{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;}</style><div class="css-16dn867"><style data-emotion-css="dm168g">.css-dm168g{color:#73797e;margin-right:8px;line-height:1;display:none;}@media screen and (max-width:390px){.css-dm168g{display:none;}}@media screen and (min-width:960px){.css-dm168g{font-size:14px;}}@media screen and (min-width:1000px){.css-dm168g{display:inline;}}</style><style data-emotion-css="1h1fwve">.css-1h1fwve{-webkit-text-decoration:none;text-decoration:none;color:#73797e;margin-right:8px;line-height:1;display:none;}@media screen and (max-width:390px){.css-1h1fwve{display:none;}}@media screen and (min-width:960px){.css-1h1fwve{font-size:14px;}}@media screen and (min-width:1000px){.css-1h1fwve{display:inline;}}</style><a href="/crowdfunding/" class="css-1h1fwve"><style data-emotion-css="vj4mx7">.css-vj4mx7{color:#73797e;margin-right:8px;line-height:1;display:none;}@media screen and (max-width:390px){.css-vj4mx7{display:none;}}@media screen and (min-width:960px){.css-vj4mx7{font-size:14px;}}@media screen and (min-width:1000px){.css-vj4mx7{display:inline;}}</style><style data-emotion-css="resmfq">.css-resmfq{margin:0;margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0;color:#4e878b;font-size:12px;font-weight:400;text-align:inherit;line-height:1.2;-webkit-user-select:auto;-moz-user-select:auto;-ms-user-select:auto;user-select:auto;-webkit-transition:color 150ms ease-in-out 0ms,font-size 150ms ease-in-out 0ms, font-weight 150ms ease-in-out 0ms;transition:color 150ms ease-in-out 0ms,font-size 150ms ease-in-out 0ms, font-weight 150ms ease-in-out 0ms;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#73797e;margin-right:8px;line-height:1;display:none;}@media screen and (max-width:390px){.css-resmfq{display:none;}}@media screen and (min-width:960px){.css-resmfq{font-size:14px;}}@media screen and (min-width:1000px){.css-resmfq{display:inline;}}</style><span color="#4e878b" href="/crowdfunding/" class="css-resmfq">プロジェクトとは</span></a><style data-emotion-css="qdilad">.css-qdilad{color:#73797e;margin-right:8px;line-height:1;}@media screen and (max-width:390px){.css-qdilad{display:none;}}@media screen and (min-width:960px){.css-qdilad{font-size:14px;}}</style><style data-emotion-css="1lv8v82">.css-1lv8v82{-webkit-text-decoration:none;text-decoration:none;color:#73797e;margin-right:8px;line-height:1;}@media screen and (max-width:390px){.css-1lv8v82{display:none;}}@media screen and (min-width:960px){.css-1lv8v82{font-size:14px;}}</style><a href="/proposals/intro" class="css-1lv8v82"><style data-emotion-css="1dw23kn">.css-1dw23kn{color:#73797e;margin-right:8px;line-height:1;}@media screen and (max-width:390px){.css-1dw23kn{display:none;}}@media screen and (min-width:960px){.css-1dw23kn{font-size:14px;}}</style><style data-emotion-css="1u2wf2w">.css-1u2wf2w{margin:0;margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0;color:#4e878b;font-size:12px;font-weight:400;text-align:inherit;line-height:1.2;-webkit-user-select:auto;-moz-user-select:auto;-ms-user-select:auto;user-select:auto;-webkit-transition:color 150ms ease-in-out 0ms,font-size 150ms ease-in-out 0ms, font-weight 150ms ease-in-out 0ms;transition:color 150ms ease-in-out 0ms,font-size 150ms ease-in-out 0ms, font-weight 150ms ease-in-out 0ms;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#73797e;margin-right:8px;line-height:1;}@media screen and (max-width:390px){.css-1u2wf2w{display:none;}}@media screen and (min-width:960px){.css-1u2wf2w{font-size:14px;}}</style><span color="#4e878b" href="/proposals/intro" class="css-1u2wf2w">はじめる</span></a><a href="/projects" class="css-1lv8v82"><span color="#4e878b" href="/projects" class="css-1u2wf2w">さがす</span></a><a href="/sign_in" class="css-11g9kr1"><style data-emotion-css="18t9b79">.css-18t9b79{width:56px;height:28px;}@media screen and (min-width:960px){.css-18t9b79{width:64px;height:32px;}}@media screen and (min-width:960px){.css-18t9b79{width:116px;}}</style><style data-emotion-css="z6dwme">.css-z6dwme{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;box-sizing:border-box;min-width:64px;height:32px;padding:8px 20px;background-color:#e73650;border-width:1px;border-color:#e73650;border-style:solid;border-radius:4px;cursor:pointer;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-transition:min-width 150ms ease-in-out 0ms,height 150ms ease-in-out 0ms, padding 150ms ease-in-out 0ms,background-color 150ms ease-in-out 0ms, border-color 150ms ease-in-out 0ms;transition:min-width 150ms ease-in-out 0ms,height 150ms ease-in-out 0ms, padding 150ms ease-in-out 0ms,background-color 150ms ease-in-out 0ms, border-color 150ms ease-in-out 0ms;width:56px;height:28px;}@media screen and (min-width:960px){.css-z6dwme{width:64px;height:32px;}}@media screen and (min-width:960px){.css-z6dwme{width:116px;}}</style><span tabindex="0" class="css-z6dwme"><style data-emotion-css="1q8jxst">.css-1q8jxst{overflow:unset;}.css-1q8jxst::before{content:"ログイン";}@media screen and (min-width:960px){.css-1q8jxst::before{content:"ログイン・登録";}}</style><style data-emotion-css="sz7t7e">.css-sz7t7e{margin:0;margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0;color:#fff;font-size:12px;font-weight:700;text-align:center;line-height:1.2;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-transition:color 150ms ease-in-out 0ms,font-size 150ms ease-in-out 0ms, font-weight 150ms ease-in-out 0ms;transition:color 150ms ease-in-out 0ms,font-size 150ms ease-in-out 0ms, font-weight 150ms ease-in-out 0ms;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;overflow:unset;}.css-sz7t7e::before{content:"ログイン";}@media screen and (min-width:960px){.css-sz7t7e::before{content:"ログイン・登録";}}</style><span color="#fff" class="css-sz7t7e"></span></span></a></div></div></header></div>
+      <script type="application/json" class="js-react-on-rails-component" data-component-name="CommonHeaderWrapper" data-dom-id="CommonHeaderWrapper-react-component-37f8a25e-d954-45b4-bfcb-37dd9c049904">{"rootUrl":"https://readyfor.jp/","userSignedIn":false,"userName":"","messageCount":0,"isProjectOwner":false,"userImage":false,"existH1":false}</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=188875347802288&version=v2.12";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+  if (window.location.hash == '#_=_') {
+    history.replaceState
+      ? history.replaceState(null, null, window.location.href.split('#')[0])
+      : window.location.hash = '';
+  }
+
+</script>
+<div class="Page-body" style="padding-top: 20px; background-color: #f8f8f8;"><div class="Container"><section class="Page-main u-fl_r" role="main"><div class="Grid is-grid-s">
+<article class="Entry is-type1 is-challenge Grid__col3 u-mb_40 ">
+
+  <a href="/projects/shinshuueda">    <div class="Entry__img">
+      <div class="Entry__img-mask">
+        <figure>
+          <img alt="在宅勤務の拡大！" src="https://florence.cybozu.com/g/cabinet/download.csp/-/okinawabeach-003.jpg?fid=3071&ticket=&hid=391&.jpg" />
+        </figure>
+      </div>
+    </div>
+    <div class="Entry__body">
+      <h3 class="Entry__h is-hide-line3">
+        在宅勤務の拡大！
+      </h3>
+      <div class="Entry__project-type-badge"><div class="project-type-badge charity">委員会</div></div>
+      <div class="Entry__info-founder hidden-while-processing">
+        <span class="Entry__info-founder-icon">
+            <img class="Entry__icon-img" alt="ちよさん" src="https://florence.cybozu.com/g/cabinet/download.csp/-/chiyo.jpg?fid=3063&ticket=&hid=391&.jpg" width="24" height="24" />
+        </span>
+        <span class="Entry__info-founder-name should-be-abbriviate">
+            ちよさん
+        </span>
+      </div>
+
+      <div class="Entry__conditon">
+        <dl class="Entry__condition-sum">
+            <dt class="Entry__condition-sum-dt"></dt>
+            <dd class="Entry__condition-sum-dd">98</dd>
+        </dl>
+          <dl class="Entry__condition-remain">
+            <dt class="Entry__condition-remain-dt">残り</dt>
+            <dd class="Entry__condition-remain-dd">
+                                    <script>
+        var left = 1576245600 - new Date().getTime() / 1000;
+        if      (left > 86400)    { document.write(~~(left / 86400)    + "日")   }
+        else if (left > 3600)   { document.write(~~(left / 3600)   + "時間") }
+        else if (left > 60) { document.write(~~(left / 60) + "分")   }
+        else if (left > 0)           { document.write("0分") }
+        else                         { document.write('12/13') }
+      </script>
+
+            </dd>
+          </dl>
+      </div>
+
+        <div class="Entry__gauge Gauge is-top">
+            <div class="Gauge__obj is-0" style="width:100%"></div>
+  <div class="Gauge__obj is-1" style="width:60%"></div>
+<div class="Gauge__txt">168%</div>
+
+        </div>
+    </div>
+</a>
+  </article>
+
+
+<article class="Entry is-type1 is-challenge Grid__col3 u-mb_40 ">
+
+  <a href="/projects/TeamTsukubaHakoneEkiden">    <div class="Entry__img">
+      <div class="Entry__img-mask">
+        <figure>
+          <img alt="伝わる1.0PJ" src="https://florence.cybozu.com/g/cabinet/download.csp/-/unnamed-2-2-1120x746.jpg?fid=3072&ticket=&hid=391&.jpg" />
+        </figure>
+      </div>
+    </div>
+    <div class="Entry__body">
+      <h3 class="Entry__h is-hide-line3">
+        伝わる1.0PJ
+      </h3>
+      <div class="Entry__project-type-badge"><div class="project-type-badge charity">委員会</div></div>
+      <div class="Entry__info-founder hidden-while-processing">
+        <span class="Entry__info-founder-icon">
+            <img class="Entry__icon-img" alt="パー子さん" src="https://florence.cybozu.com/g/cabinet/download.csp/-/pako.png?fid=3068&ticket=&hid=391&.png" width="24" height="24" />
+        </span>
+        <span class="Entry__info-founder-name should-be-abbriviate">
+            パー子さん
+        </span>
+      </div>
+
+      <div class="Entry__conditon">
+        <dl class="Entry__condition-sum">
+            <dt class="Entry__condition-sum-dt">いいね数</dt>
+            <dd class="Entry__condition-sum-dd">98</dd>
+        </dl>
+          <dl class="Entry__condition-remain">
+            <dt class="Entry__condition-remain-dt">残り</dt>
+            <dd class="Entry__condition-remain-dd">
+                                    <script>
+        var left = 1576850400 - new Date().getTime() / 1000;
+        if      (left > 86400)    { document.write(~~(left / 86400)    + "日")   }
+        else if (left > 3600)   { document.write(~~(left / 3600)   + "時間") }
+        else if (left > 60) { document.write(~~(left / 60) + "分")   }
+        else if (left > 0)           { document.write("0分") }
+        else                         { document.write('12/20') }
+      </script>
+
+            </dd>
+          </dl>
+      </div>
+
+        <div class="Entry__gauge Gauge is-top">
+            <div class="Gauge__obj is-0" style="width:100%"></div>
+  <div class="Gauge__obj is-1" style="width:30%"></div>
+<div class="Gauge__txt">463%</div>
+
+        </div>
+    </div>
+</a>
+  </article>
+
+
+<article class="Entry is-type1 is-challenge Grid__col3 u-mb_40 ">
+
+  <a href="/projects/tamurasoubi-01">    <div class="Entry__img">
+      <div class="Entry__img-mask">
+        <figure>
+        <img alt="情報共有全般なんとかしようぜ！" src="https://florence.cybozu.com/g/cabinet/download.csp/-/nyamurapj.png?fid=3073&ticket=&hid=391&.png" />
+        </figure>
+      </div>
+    </div>
+    <div class="Entry__body">
+      <h3 class="Entry__h is-hide-line3">
+        情報共有全般なんとかしようぜ！
+      </h3>
+      <div class="Entry__project-type-badge"><div class="project-type-badge normal">オペ虎</div></div>
+      <div class="Entry__info-founder hidden-while-processing">
+        <span class="Entry__info-founder-icon">
+        <img class="Entry__icon-img" alt="にゃむらさん" src="https://florence.cybozu.com/g/cabinet/download.csp/-/3365919.rsz.png?fid=3074&ticket=&hid=391&.png" width="24" height="24" />
+        </span>
+        <span class="Entry__info-founder-name should-be-abbriviate">
+            にゃむらさん
+        </span>
+      </div>
+
+      <div class="Entry__conditon">
+        <dl class="Entry__condition-sum">
+            <dt class="Entry__condition-sum-dt">いいね数</dt>
+            <dd class="Entry__condition-sum-dd">98</dd>
+        </dl>
+          <dl class="Entry__condition-remain">
+            <dt class="Entry__condition-remain-dt">残り</dt>
+            <dd class="Entry__condition-remain-dd">
+                                    <script>
+        var left = 1577196000 - new Date().getTime() / 1000;
+        if      (left > 86400)    { document.write(~~(left / 86400)    + "日")   }
+        else if (left > 3600)   { document.write(~~(left / 3600)   + "時間") }
+        else if (left > 60) { document.write(~~(left / 60) + "分")   }
+        else if (left > 0)           { document.write("0分") }
+        else                         { document.write('12/24') }
+      </script>
+
+            </dd>
+          </dl>
+      </div>
+
+        <div class="Entry__gauge Gauge is-top">
+            <div class="Gauge__obj is-0" style="width:56%"></div>
+  <div class="Gauge__obj is-1" style="width:20%"></div>
+<div class="Gauge__txt">284%</div>
+
+        </div>
+    </div>
+</a>
+  </article>
+
+<div id="load_project"></div></div><div class="u-align_c u-d_none"><a id="load_more" class="Btn-0__txt" rel="next" data-remote="true" href="/projects?page=2"><div class="Btn-0 is-l" id="load_more_button"><span class="Btn-0__inner"><span class="Btn-0__content"><span>もっとみる</span></span></span></div></a></div><div class="u-align_c u-mt_20 u-mb_20">  <nav class="pagination">
+
+        <span class="page current">
+    <span class = "Btn-0 is-s u-ml_10">
+      <span class="Btn-0__inner">
+        <span class="Btn-0__content">
+          <span class="Btn-0__txt">1</span>
+        </span>
+      </span>
+    </span>
+</span>
+
+        <span class="page">
+    <a rel="next" class="Btn-0 is-s u-ml_10" href="/projects?page=2">
+      <span class="Btn-0__inner">
+        <span class="Btn-0__content">
+          <span class="Btn-0__txt">2</span>
+        </span>
+      </span>
+</a></span>
+
+        <span class="page">
+    <a class="Btn-0 is-s u-ml_10" href="/projects?page=3">
+      <span class="Btn-0__inner">
+        <span class="Btn-0__content">
+          <span class="Btn-0__txt">3</span>
+        </span>
+      </span>
+</a></span>
+
+        <span class="page">
+    <a class="Btn-0 is-s u-ml_10" href="/projects?page=4">
+      <span class="Btn-0__inner">
+        <span class="Btn-0__content">
+          <span class="Btn-0__txt">4</span>
+        </span>
+      </span>
+</a></span>
+
+        <span class="page">
+    <a class="Btn-0 is-s u-ml_10" href="/projects?page=5">
+      <span class="Btn-0__inner">
+        <span class="Btn-0__content">
+          <span class="Btn-0__txt">5</span>
+        </span>
+      </span>
+</a></span>
+
+        <span class="page">
+    <a class="Btn-0 is-s u-ml_10" href="/projects?page=6">
+      <span class="Btn-0__inner">
+        <span class="Btn-0__content">
+          <span class="Btn-0__txt">6</span>
+        </span>
+      </span>
+</a></span>
+
+        <span class="page gap">...</span>
+
+    <span class="next">
+    <a rel="next" class="Btn-0 is-s u-ml_10" href="/projects?page=2">
+      <span class="Btn-0__inner">
+        <span class="Btn-0__content">
+          <span class="Btn-0__txt">次へ</span>
+        </span>
+      </span>
+</a></span>
+
+  </nav>
+</div></section><div class="Sidebar u-fl_l"><nav class="Local-nav"><h2 class="u-d_none" id="navigation">ナビゲーションメニュー</h2><section class="Local-nav-menu u-mb_25"><h3 class="Local-nav-menu__h"><span class="Local-nav-menu__h-icon Icon-search"></span><span class="Local-nav-menu__h-txt">プロジェクトをさがす</span></h3><ul class="Local-nav-menu__list"><li class="Local-nav-menu__item"><a class="Local-nav-menu__link" href="/projects?sort_query=notable">人事系のプロジェクト</a></li><li class="Local-nav-menu__item"><a class="Local-nav-menu__link" href="/projects?sort_query=desc_accomplished_money">経理系のプロジェクト</a></li><li class="Local-nav-menu__item"><a class="Local-nav-menu__link" href="/projects?sort_query=accomplished_alittle">新規事業のプロジェクト</a></li><li class="Local-nav-menu__item"><a class="Local-nav-menu__link" href="/projects?sort_query=accomplished_alittle">コミュニケーションのプロジェクト</a></li></ul></section><section class="Local-nav-menu u-mb_25"><div class="menu-list"><h3 class="Local-nav-menu__h"><span class="Local-nav-menu__h-icon Icon-tag-2"></span></div></section></nav></div></div></div><div id="page-top"><p><a id="move-page-top"></a></p></div><div id="ShortProposalButton-react-component-bc2127b1-0e6c-4c1e-aa71-e1094a3bc877"><style data-emotion-css="1s5fj0l">.css-1s5fj0l{display:none;position:fixed;width:53px;top:270px;right:0;z-index:500;box-sizing:border-box;border:1px solid #dee1e3;border-right-width:0;border-radius:4px 0px 0px 4px;background-color:#fff;box-shadow:0px 2px 6px rgba(33,35,37,0.08);line-height:0;}.css-1s5fj0l:hover{box-shadow:0px 4px 8px rgba(33,35,37,0.12);}.css-1s5fj0l a:link,.css-1s5fj0l a:hover{color:#4e878b;}</style><div id="to-intro" class="css-1s5fj0l"><style data-emotion-css="5cefse">.css-5cefse{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;padding:16px;color:#4e878b;font-weight:bold;font-size:12px;line-height:14px;-webkit-letter-spacing:0.17em;-moz-letter-spacing:0.17em;-ms-letter-spacing:0.17em;letter-spacing:0.17em;-webkit-text-decoration:none;text-decoration:none;}</style><a href="/proposals/intro?follow_button" class="css-5cefse">プロジェクトの相談をする<style data-emotion-css="1vhbdaf">.css-1vhbdaf{padding:5px 0 0 1px;}</style><img class="css-1vhbdaf" src="/assets/svg/side_bar_arrow.svg" alt="" height="20" width="20"/></a></div></div>
+      <script type="application/json" class="js-react-on-rails-component" data-component-name="ShortProposalButton" data-dom-id="ShortProposalButton-react-component-bc2127b1-0e6c-4c1e-aa71-e1094a3bc877">{"href":"/proposals/intro?follow_button"}</script>
+
+      <script type="application/json" class="js-react-on-rails-component" data-component-name="CommonFooter" data-dom-id="CommonFooter-react-component-0dd1d475-6268-4c1b-8e28-159bc42e4208">{}</script>
+
+<!--footer Area-->    <div class="overlay"></div>
+
+
+
+
+
+
+<script>
+
+  $(function() {
+    var cookieNyoro = $.cookie("nyoro-content");
+    if (typeof cookieNyoro !== "undefined") {
+      $.removeCookie("nyoro-content");
+      playNyoro(cookieNyoro);
+    }
+  });
+</script>
+</div></body></html>
